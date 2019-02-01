@@ -1,4 +1,4 @@
-/******/ (function(modules) { // webpackBootstrap
+(function(e, a) { for(var i in a) e[i] = a[i]; }(exports, /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -2523,32 +2523,16 @@ if (process.env.NODE_ENV === 'production') {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__react_aspera_connect__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__with_aspera__ = __webpack_require__(3);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "initAspera", function() { return __WEBPACK_IMPORTED_MODULE_0__react_aspera_connect__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withAspera", function() { return __WEBPACK_IMPORTED_MODULE_1__with_aspera__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "asperaWeb", function() { return __WEBPACK_IMPORTED_MODULE_0__react_aspera_connect__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "asperaInstaller", function() { return __WEBPACK_IMPORTED_MODULE_0__react_aspera_connect__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return __WEBPACK_IMPORTED_MODULE_0__react_aspera_connect__["d"]; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "awesomeFunction", function() { return awesomeFunction; });
-
-
-
-var awesomeFunction = function awesomeFunction() {
-  return 'I am just an Awesome Function';
-}; // module.exports = {
-//         x: 4,
-//         initAspera: initAspera,
-//         withAspera: withAspera,
-//         aspera: {
-//             web: asperaWeb, 
-//             installer: asperaInstaller, 
-//             config: config
-//         }
-//     }
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__with_aspera__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__react_aspera_connect__ = __webpack_require__(1);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "initAspera", function() { return __WEBPACK_IMPORTED_MODULE_1__react_aspera_connect__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withAspera", function() { return __WEBPACK_IMPORTED_MODULE_0__with_aspera__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "asperaWeb", function() { return __WEBPACK_IMPORTED_MODULE_1__react_aspera_connect__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "asperaInstaller", function() { return __WEBPACK_IMPORTED_MODULE_1__react_aspera_connect__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return __WEBPACK_IMPORTED_MODULE_1__react_aspera_connect__["d"]; });
 
 
 
 
 /***/ })
-/******/ ]);
+/******/ ])));
