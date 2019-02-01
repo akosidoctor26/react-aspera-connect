@@ -1,6 +1,6 @@
 {
   "name": "react-aspera-connect",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library for using Aspera Connect Client with React Applications",
   "main": "./dist/index.js",
   "scripts": {
