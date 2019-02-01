@@ -2565,9 +2565,11 @@ if (process.env.NODE_ENV === 'production') {
 module.exports = {
   initAspera: initAspera,
   withAspera: withAspera,
-  asperaWeb: asperaWeb,
-  asperaInstaller: asperaInstaller,
-  config: config
+  aspera: {
+    web: asperaWeb,
+    installer: asperaInstaller,
+    config: config
+  }
 };
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3)(module)))
 

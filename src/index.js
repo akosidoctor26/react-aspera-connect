@@ -2,7 +2,11 @@ export { initAspera, asperaWeb, asperaInstaller, config } from './react-aspera-c
 export { withAspera }  from './with-aspera';
 
 module.exports = {
-    initAspera,
-    withAspera,
-    asperaWeb, asperaInstaller, config
+    initAspera: initAspera,
+    withAspera: withAspera,
+    aspera: {
+        web: asperaWeb, 
+        installer: asperaInstaller, 
+        config: config
+    }
 }
