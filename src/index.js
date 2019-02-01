@@ -3,7 +3,7 @@ import { withAspera }  from './with-aspera';
 
 
 
-export const aspera = {
+module.exports = {
         initAspera: initAspera,
         withAspera: withAspera,
         aspera: {
