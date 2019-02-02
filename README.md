@@ -7,6 +7,13 @@ Library for using Aspera Connect Client with React Applications
 
 ## Installing
 
+Add this to your main html file
+```
+<script src="//d3gcli72yxqn2z.cloudfront.net/connect/v4/connectinstaller-4.min.js"></script>
+<script src="//d3gcli72yxqn2z.cloudfront.net/connect/v4/asperaweb-4.min.js"></script>
+```
+
+Then install the package
 ```
     npm i react-aspera-connect
 ```
