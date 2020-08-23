@@ -4,10 +4,10 @@ export let asperaWeb, asperaInstaller, config;
 export const initAspera = (params) => {
   const { AW4 } = window;
 
-  config = Object.freeze({
+  config = {
     ...params,
     minVersion: params.minVersion || '3.8.0'
-  });
+  };
   
   asperaWeb = new AW4.Connect({ sdkLocation: config.sdkLocation, minVersion: config.minVersion });
   asperaInstaller = new AW4.ConnectInstaller({ sdkLocation: config.sdkLocation });
